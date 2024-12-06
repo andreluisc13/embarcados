@@ -1,0 +1,17 @@
+#!/bin/sh
+SCRIPT=/root/integracao.py
+
+case "$1" in
+  start)
+    python3 $SCRIPT &
+    ;;
+  stop)
+    killall python3
+    ;;
+  restart)
+    $0 stop
+    $0 start
+    ;;
+esac
+
+exit 0

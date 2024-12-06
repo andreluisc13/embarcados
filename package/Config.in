@@ -2928,3 +2928,5 @@ menu "Text editors and viewers"
 endmenu
 
 endmenu
+source "package/persistencia/Config.in"
+

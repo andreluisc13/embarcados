@@ -1,0 +1,2 @@
+config BR2_PACKAGE_PERSISTENCIA
+    bool "Aplicacao para registrar distancias"
